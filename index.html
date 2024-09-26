@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ottoman Discographies</title>
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #0f0f0f;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: #0f0f0f; 
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        h1 {
+            margin: 0;
+            padding-top: 10px;
+        }
+        p {
+            text-align: center;
+            font-size: 1.1em;
+            margin-top: 10px;
+            max-width: 800px;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 10px; 
+            margin-bottom: 30px;
+        }
+        .chart-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .chart-list a {
+            background-color: #f7f7f7;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: #393e46;
+            width: 300px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .chart-list a:hover {
+            background-color: #eeeeee;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0f0f0f;
+            color: white;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ottoman Discographies</h1>
+    </header>
+
+    <main>
+        <p>The following data visualizations provide a preliminary overview of 7,468 songs recorded by nine record labels in the late Ottoman Empire (1903–1922).</p>
+        <h2>Explore the Charts</h2>
+        <div class="chart-list">
+            <a href="https://oecam.github.io/ottomandiscographies/artists_connection_with_labels.html" target="_blank">
+                Network Map: Artist-Label Collaboration
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/artists_connection_dynamic_size.html" target="_blank">
+                Network Map: Record Labels
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/stacked_bar_top_30_songs_ordered_across_labels.html" target="_blank">
+                Stacked Bar: Top 30 Most Recorded Songs Across Labels
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/stacked_bar_top_30_artists_ordered_across_labels.html" target="_blank">
+                Stacked Bar: Top 30 Most Recorded Artists Across Labels
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/spider_chart_top_20_maqams_male_vs_female_percentage.html" target="_blank">
+                Spider Chart: Top 20 Maqams (Male vs Female)
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/sankey_artists_labels_maqams.html" target="_blank">
+                Sankey Diagram: Artists, Labels, Maqams
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/sankey_artists_labels_genres.html" target="_blank">
+                Sankey Diagram: Artists, Labels, Genres
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/pie_chart_recorded_songs_by_maqams_including_nans.html" target="_blank">
+                Pie Chart: Recorded Songs by Maqams
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/pie_chart_recorded_songs_by_labels.html" target="_blank">
+                Pie Chart: Recorded Songs by Labels
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/pie_chart_recorded_songs_by_gender_updated.html" target="_blank">
+                Pie Chart: Recorded Songs by Gender
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/pie_chart_recorded_songs_by_female_artists.html" target="_blank">
+                Pie Chart: Recorded Songs by Female Artists
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/pie_chart_recorded_songs_by_artists_visual_only_value.html" target="_blank">
+                Pie Chart: Recorded Songs by Artists
+            </a>
+            <a href="https://oecam.github.io/ottomandiscographies/heatmap_top_10_labels_by_gender_go.html" target="_blank">
+                Heatmap: Labels by Song Count and Gender
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ottoman Discographies by Onur Engin. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
